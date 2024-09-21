@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['0', '1', '2', 'licence', 'object']
+
+roboflow:
+  workspace: mayank-tripathi-h4ov1
+  project: car_license-0ar5x
+  version: 2
+  license: Public Domain
+  url: https://universe.roboflow.com/mayank-tripathi-h4ov1/car_license-0ar5x/dataset/2
